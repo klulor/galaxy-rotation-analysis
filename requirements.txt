@@ -1,0 +1,8 @@
+# Runtime imports plus fresh-kernel notebook execution (Python 3.13).
+numpy
+scipy
+matplotlib
+astropy
+ipykernel
+nbclient
+nbformat

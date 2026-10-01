@@ -1,0 +1,62 @@
+# Explicit public-file allowlist.
+/*
+!/.gitignore
+!/README.md
+!/analysis.ipynb
+!/run_notebook.py
+!/requirements.txt
+!/requirements-lock.txt
+!/environment.yml
+!/data/
+/data/*
+!/data/README.md
+
+# Data and generated binaries.
+*.fits
+*.fits.gz
+*.fit
+*.fit.gz
+*.fz
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pdf
+
+# Local runtimes and caches.
+.venv/
+venv/
+env/
+.conda/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# Local execution and working material.
+local_execution/
+execution/
+diagnostics/
+debug/
+audits/
+snapshots/
+tmp/
+scratch/
+output/
+*.log
+*.tmp
+*.bak
+
+# OS, editor and private configuration.
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+.env
+.env.*

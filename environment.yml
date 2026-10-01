@@ -1,0 +1,12 @@
+name: manga-galaxy-rotation
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - numpy
+  - scipy
+  - matplotlib
+  - astropy
+  - ipykernel
+  - nbclient
+  - nbformat
